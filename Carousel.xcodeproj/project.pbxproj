@@ -13,6 +13,7 @@
 		8C3F8EB32816AB13007D73BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C3F8EB12816AB13007D73BF /* Main.storyboard */; };
 		8C3F8EB52816AB15007D73BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C3F8EB42816AB15007D73BF /* Assets.xcassets */; };
 		8C3F8EB82816AB15007D73BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C3F8EB62816AB15007D73BF /* LaunchScreen.storyboard */; };
+		8C3F8EC02816ABBD007D73BF /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F8EBF2816ABBD007D73BF /* CarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8C3F8EB42816AB15007D73BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C3F8EB72816AB15007D73BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C3F8EB92816AB15007D73BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C3F8EBF2816ABBD007D73BF /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8C3F8EAB2816AB13007D73BF /* AppDelegate.swift */,
 				8C3F8EAD2816AB13007D73BF /* SceneDelegate.swift */,
 				8C3F8EAF2816AB13007D73BF /* ViewController.swift */,
+				8C3F8EBF2816ABBD007D73BF /* CarouselView.swift */,
 				8C3F8EB12816AB13007D73BF /* Main.storyboard */,
 				8C3F8EB42816AB15007D73BF /* Assets.xcassets */,
 				8C3F8EB62816AB15007D73BF /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				8C3F8EB02816AB13007D73BF /* ViewController.swift in Sources */,
 				8C3F8EAC2816AB13007D73BF /* AppDelegate.swift in Sources */,
+				8C3F8EC02816ABBD007D73BF /* CarouselView.swift in Sources */,
 				8C3F8EAE2816AB13007D73BF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BMXC39C5SJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Carousel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +321,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BMXC39C5SJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Carousel/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
