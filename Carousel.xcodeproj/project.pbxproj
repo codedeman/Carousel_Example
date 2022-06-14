@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		302B90262858DFE7004A1062 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 302B90252858DFE7004A1062 /* RxSwift */; };
+		302B90282858E1B4004A1062 /* FilmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B90272858E1B4004A1062 /* FilmModel.swift */; };
+		302B902B2858E47D004A1062 /* CinemaListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302B90292858E47D004A1062 /* CinemaListCell.xib */; };
+		302B902C2858E47D004A1062 /* CinemaListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B902A2858E47D004A1062 /* CinemaListCell.swift */; };
+		303259E12858DB9C000FBE92 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 303259E02858DB9C000FBE92 /* RxCocoa */; };
+		303259EA2858DCEF000FBE92 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 303259E92858DCEF000FBE92 /* SDWebImage */; };
+		303259EC2858DD27000FBE92 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303259EB2858DD27000FBE92 /* BaseRequest.swift */; };
+		303259EF2858DD49000FBE92 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 303259EE2858DD49000FBE92 /* Alamofire */; };
+		303259F12858DDA3000FBE92 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303259F02858DDA3000FBE92 /* HomeViewModel.swift */; };
 		8C3F8EAC2816AB13007D73BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F8EAB2816AB13007D73BF /* AppDelegate.swift */; };
 		8C3F8EAE2816AB13007D73BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F8EAD2816AB13007D73BF /* SceneDelegate.swift */; };
 		8C3F8EB02816AB13007D73BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F8EAF2816AB13007D73BF /* ViewController.swift */; };
@@ -17,6 +26,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		302B90272858E1B4004A1062 /* FilmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmModel.swift; sourceTree = "<group>"; };
+		302B90292858E47D004A1062 /* CinemaListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CinemaListCell.xib; path = Cell/CinemaListCell.xib; sourceTree = "<group>"; };
+		302B902A2858E47D004A1062 /* CinemaListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CinemaListCell.swift; path = Cell/CinemaListCell.swift; sourceTree = "<group>"; };
+		303259EB2858DD27000FBE92 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		303259F02858DDA3000FBE92 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		8C3F8EA82816AB13007D73BF /* Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3F8EAB2816AB13007D73BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C3F8EAD2816AB13007D73BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,6 +47,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303259EF2858DD49000FBE92 /* Alamofire in Frameworks */,
+				303259E12858DB9C000FBE92 /* RxCocoa in Frameworks */,
+				302B90262858DFE7004A1062 /* RxSwift in Frameworks */,
+				303259EA2858DCEF000FBE92 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +76,8 @@
 		8C3F8EAA2816AB13007D73BF /* Carousel */ = {
 			isa = PBXGroup;
 			children = (
+				302B902A2858E47D004A1062 /* CinemaListCell.swift */,
+				302B90292858E47D004A1062 /* CinemaListCell.xib */,
 				8C3F8EAB2816AB13007D73BF /* AppDelegate.swift */,
 				8C3F8EAD2816AB13007D73BF /* SceneDelegate.swift */,
 				8C3F8EAF2816AB13007D73BF /* ViewController.swift */,
@@ -66,6 +86,9 @@
 				8C3F8EB42816AB15007D73BF /* Assets.xcassets */,
 				8C3F8EB62816AB15007D73BF /* LaunchScreen.storyboard */,
 				8C3F8EB92816AB15007D73BF /* Info.plist */,
+				303259EB2858DD27000FBE92 /* BaseRequest.swift */,
+				303259F02858DDA3000FBE92 /* HomeViewModel.swift */,
+				302B90272858E1B4004A1062 /* FilmModel.swift */,
 			);
 			path = Carousel;
 			sourceTree = "<group>";
@@ -86,6 +109,12 @@
 			dependencies = (
 			);
 			name = Carousel;
+			packageProductDependencies = (
+				303259E02858DB9C000FBE92 /* RxCocoa */,
+				303259E92858DCEF000FBE92 /* SDWebImage */,
+				303259EE2858DD49000FBE92 /* Alamofire */,
+				302B90252858DFE7004A1062 /* RxSwift */,
+			);
 			productName = Carousel;
 			productReference = 8C3F8EA82816AB13007D73BF /* Carousel.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +143,12 @@
 				Base,
 			);
 			mainGroup = 8C3F8E9F2816AB13007D73BF;
+			packageReferences = (
+				303259DF2858DB9C000FBE92 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				303259E82858DCEE000FBE92 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				303259ED2858DD49000FBE92 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				302B90242858DFE7004A1062 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 8C3F8EA92816AB13007D73BF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				302B902B2858E47D004A1062 /* CinemaListCell.xib in Resources */,
 				8C3F8EB82816AB15007D73BF /* LaunchScreen.storyboard in Resources */,
 				8C3F8EB52816AB15007D73BF /* Assets.xcassets in Resources */,
 				8C3F8EB32816AB13007D73BF /* Main.storyboard in Resources */,
@@ -141,8 +177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				302B902C2858E47D004A1062 /* CinemaListCell.swift in Sources */,
+				303259EC2858DD27000FBE92 /* BaseRequest.swift in Sources */,
+				303259F12858DDA3000FBE92 /* HomeViewModel.swift in Sources */,
 				8C3F8EB02816AB13007D73BF /* ViewController.swift in Sources */,
 				8C3F8EAC2816AB13007D73BF /* AppDelegate.swift in Sources */,
+				302B90282858E1B4004A1062 /* FilmModel.swift in Sources */,
 				8C3F8EC02816ABBD007D73BF /* CarouselView.swift in Sources */,
 				8C3F8EAE2816AB13007D73BF /* SceneDelegate.swift in Sources */,
 			);
@@ -364,6 +404,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		302B90242858DFE7004A1062 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		303259DF2858DB9C000FBE92 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		303259E82858DCEE000FBE92 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		303259ED2858DD49000FBE92 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		302B90252858DFE7004A1062 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 303259DF2858DB9C000FBE92 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		303259E02858DB9C000FBE92 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 303259DF2858DB9C000FBE92 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		303259E92858DCEF000FBE92 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 303259E82858DCEE000FBE92 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		303259EE2858DD49000FBE92 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 303259ED2858DD49000FBE92 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8C3F8EA02816AB13007D73BF /* Project object */;
 }
